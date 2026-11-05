@@ -1,0 +1,35 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter / Dart
+app/.dart_tool/
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+
+# Node / React
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+
+# .NET
+api/**/bin/
+api/**/obj/
+*.user
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+ai/models/
